@@ -2,4 +2,18 @@
     h1 {
         color: red;
     }
+
+    .green-skew {
+        height: 400px;
+        @include angle-edge(topleft, 3deg, bottomleft, 3deg);
+        background: green;
+        margin: 100px 0;
+    }
+
+    .red-skew {
+        height: 400px;
+        @include angle-edge(topright, 3deg, bottomright, 3deg);
+        background: red;
+        margin: 100px 0;
+    }
 }
