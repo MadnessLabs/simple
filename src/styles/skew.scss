@@ -2,6 +2,7 @@
     position: relative;
     background: $background;
     &:before {
+        z-index: -1;
         position: absolute;
         top: -50px;
         height: 100px;
@@ -18,6 +19,7 @@
         background: $background;
     }
     &:after {
+        z-index: -1;
         content: ' ';
         position: absolute;
         bottom: -50px;
